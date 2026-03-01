@@ -1,0 +1,63 @@
+<section id="about" class="section about-section">
+  <h2 class="section-title">À propos de moi</h2>
+  <p class="section-subtitle">Découvrez mon parcours et ma passion pour le développement</p>
+  
+  <div class="about-content">
+    <div class="about-text">
+      <div class="about-card">
+        <h3>Qui suis-je ?</h3>
+        <p>
+          Je suis un étudiant en licence d'<b>informatique</b>, bilingue alliant le français et l'anglais avec aisance, passionné par la création d'expériences numériques exceptionnelles.
+          Avec une solide expertise dans les fondamentaux de l'informatique, je transforme les idées en réalité
+          grâce à des technologies modernes et des pratiques de développement de pointe.
+        </p>
+        <p>
+          Mon approche combine créativité et rigueur technique pour réaliser des projets
+          qui répondent aux besoins actuels tout en restant performante et évolutive.
+        </p>
+      </div>
+    </div>
+    
+    <div class="about-stats">
+      <div class="stat-card">
+        <div class="stat-number">10+</div>
+        <div class="stat-label">Projets réalisés</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">2+</div>
+        <div class="stat-label">Années d'expérience</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">20+</div>
+        <div class="stat-label">Cours suivis</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="timeline">
+    <h3 class="timeline-title">Expériences professionnelles</h3>
+    <div class="timeline-items">
+      <div *ngFor="let exp of experiences" class="timeline-item">
+        <div class="timeline-year">{{ exp.year }}</div>
+        <div class="timeline-content">
+          <h4>{{ exp.title }}</h4>
+          <p class="timeline-company">{{ exp.company }}</p>
+          <p>{{ exp.description }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="timeline">
+    <h3 class="timeline-title">Formations</h3>
+    <div class="timeline-items">
+      <div *ngFor="let edu of education" class="timeline-item">
+        <div class="timeline-year">{{ edu.year }}</div>
+        <div class="timeline-content">
+          <h4>{{ edu.degree }}</h4>
+          <p class="timeline-company">{{ edu.school }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
