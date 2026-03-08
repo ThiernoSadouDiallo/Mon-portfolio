@@ -12,21 +12,9 @@ export class AboutComponent {
   
   experiences = [
     {
-      year: '2026',
-      title: 'Gestionnaire d\'emploi de temps',
-      company: 'Projet Personnel',
-      description: 'Développement d\'une application permettant de créer des emplois du temps avec Java POO tout en respectant un certain nombre de contraintes.'
-    },
-   {
-      year: '2026',
-      title: 'Générateur de Corewar',
-      company: 'Projet Personnel',
-      description: 'Corewar est un jeu de programmation dans lequel deux programme informatique sont en concurrence pour le controle d\'une machine virtuelle appélée MARS.'
-    },
-    {
       year: '2025',
       title: 'Stage en Administration Système Linux',
-      company: 'InnovQube',
+      company: 'Chez InnovQube',
       description: 'Automatisation, Supervision et Déploiement d\'Applications.'
     },
   ];
