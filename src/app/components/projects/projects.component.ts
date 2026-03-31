@@ -26,8 +26,14 @@ export class ProjectsComponent {
       
     },
     {
-      title: 'Site Portfolio',
+      title: 'Mon Portfolio',
       description: 'Site portfolio moderne et responsive avec animations et transitions fluides.',
+      technologies: ['Angular', 'TypeScript', 'Html', 'Css'],
+      github: '#'
+    }
+    {
+      title: 'Jeu de PUZZLE',
+      description: 'Le but de ce projet est de réaliser une application de jeu, dotée d\'une interface graphique, mais pouvant être utilisé sans l\'interface graphique tout en implémentant la vue console, ce jeu consiste en un puzzle à glissière.',
       technologies: ['Angular', 'TypeScript', 'Html', 'Css'],
       github: '#'
     }
